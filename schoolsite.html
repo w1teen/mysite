@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Спорт-магазин</title>
+	<h1 align = "center">Спорт-магазин</h1>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #000;
+			color: #fff;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 auto;
+			max-width: 1000px;
+			padding: 20px;
+			background-color: #111;
+		}
+
+		.product {
+			width: calc(33.33% - 20px);
+			margin: 10px;
+			background-color: #222;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+			text-align: center;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.product img {
+			max-width: 100%;
+			height: auto;
+			transition: transform 0.3s ease;
+			cursor: pointer;
+		}
+
+		.product:hover img {
+			transform: scale(1.2);
+		}
+
+		.product h2 {
+			font-size: 24px;
+			margin: 10px;
+		}
+
+		.product p {
+			font-size: 16px;
+			margin: 10px;
+			line-height: 1.5;
+		}
+
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #4CAF50;
+			color: #fff;
+			font-size: 16px;
+			border-radius: 4px;
+			text-decoration: none;
+			margin: 10px;
+		}
+
+		.button:hover {
+			background-color: #3e8e41;
+		}
+
+		.prev, .next {
+			display: block;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			background-color: rgba(0, 0, 0, 0.5);
+			color: #fff;
+			font-size: 24px;
+			padding: 10px;
+			cursor: pointer;
+		}
+
+		.prev {
+			left: 0;
+		}
+
+		.next {
+			right: 0;
+		}
+
+		.contacts {
+			padding: 20px;
+			background-color: #222;
+			text-align: center;
+		}
+
+		.contacts h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		.contacts p {
+			font-size: 16px;
+			margin: 10px;
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="product">
+		<br></br>
+			<img src="foto/335335.jpg" width="250px height="250px" alt="Product 1">
+			<h2>капа</h2>
+			<p>Капа OPRO Bronze UFC доросла </p>
+			<p>Цена: грн 390₴</p>
+			<a href="#" class="button">Купити</a>
+		</div>
+		
+		
+		
+		
+		<div class="product">
+		<br></br>
+			<img src="foto/123.jpg" width="200px" height="200px" alt="Product 2">
+			<h2>Боксерська груша</h2>
+			<p>Мішок боксерський Boxer кирза 160 см Чорний </p>
+			<p>Ціна:1 635₴</p>
+			<a href="#" class="button">Купити</a>
+		</div>
+		
+		
+		
+		<div class="product">
+		<br></br>
+			<img src="foto/980980.jpg" width="400px" height="400px" alt="Product 2">
+			<h2>боксерські рукавиці</h2>
+			<p>Рукавиці боксерські BOXER Еліт 10 унцій Сині</p>
+			<p>Цена: 598₴</p>
+			<a href="#" class="button">Купити</a>
+		</div>
+		
+		<div class="product">
+		<br></br>
+			<img src="foto/335.jpg" width="400px" height="400px" alt="Product 2">
+			<h2>Шолом боксерський</h2>
+			<p>Боксерський шолом тренувальний PowerPlay 3100 PU Чорно-зелений M</p>
+			<p>Цена: 999₴</p>
+			<a href="#" class="button">Купити</a>
+		</div>
+		
+		
+		<div class="product">
+		<br></br>
+			<img src="foto/335.jpg" width="400px" height="400px" alt="Product 2">
+			<h2>Шолом боксерський</h2>
+			<p>Боксерський шолом тренувальний PowerPlay 3100 PU Чорно-зелений M</p>
+			<p>Цена: 999₴</p>
+			<a href="#" class="button">Купити</a>
+		</div>
+		
+		
+		
+		<div class="product">
+		<br></br>
+			<img src="foto/335.jpg" width="400px" height="400px" alt="Product 2">
+			<h2>Шолом боксерський</h2>
+			<p>Боксерський шолом тренувальний PowerPlay 3100 PU Чорно-зелений M</p>
+			<p>Цена: 999₴</p>
+			<a href="#" class="button">Купити</a>
+		</div>
+	</div>
+</body>
+</html>
